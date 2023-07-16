@@ -12,4 +12,7 @@ export class ShoppingListComponent {
     new Ingredient('Tomatoes',10)
   ];
   constructor(){ }
+  onIngredientAdded(ingreadient : Ingredient){
+    this.ingreadients.push(ingreadient);
+  }
 }
